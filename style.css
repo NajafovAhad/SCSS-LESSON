@@ -1,0 +1,176 @@
+.twogirls {
+  border: 1px solid;
+  height: 400px;
+  width: 100%;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.block {
+  background-color: #f8e2c9;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.block h1 {
+  margin-top: 15%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 5rem;
+}
+
+.block p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4%;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.block button {
+  padding: 2%;
+  width: 35%;
+  background-color: black;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: 2px solid black;
+}
+
+.block button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.block button:hover {
+  background-color: grey;
+  border: 2px solid grey;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.photo {
+  width: 50%;
+}
+
+.shopfine {
+  margin-top: 5%;
+}
+
+.shopfine h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 9%;
+}
+
+.goldring {
+  width: 100%;
+}
+
+.goldring:hover {
+  cursor: pointer;
+}
+
+.container p {
+  text-decoration: none;
+}
+
+.container p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.mid {
+  border: 1px solid black;
+  height: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mid:hover {
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mid p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7%;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mid p:hover {
+  color: white;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.giftguides h4 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 8%;
+  color: black;
+  padding: 0;
+}
+
+.colonka {
+  margin-top: 10%;
+  background-color: rgba(243, 239, 235, 0.897);
+  height: 280px;
+}
+
+.container3 {
+  margin: 10% 0 0 2%;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container3 .styleedit {
+  border-top: 1px solid black;
+}
+
+.container3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 0 3%;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
